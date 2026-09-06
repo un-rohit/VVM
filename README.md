@@ -1,12 +1,12 @@
-# DevBhoomi School Website & Management SaaS
+# Vani Vidya Mandir School (VVM), Gamharia
 
-A modern, multi-tenant school management system with a dynamic public-facing website and role-based admin dashboards. Built for educational institutions, the platform combines a rich public frontend with a full-featured content management backend, subscription-based feature gating, and a developer super-admin console.
+A modern school management system and dynamic public-facing website for **Vani Vidya Mandir School, Gamharia, Jamshedpur**. Combining a rich public frontend with a full-featured content management backend, role-based dashboards, and complete school administration.
 
 ---
 
 ## Live Demo
 
-[![Vercel](https://img.shields.io/badge/Live_Demo-000?logo=vercel&logoColor=white)](https://devbhoomischool.vercel.app)
+[![Vercel](https://img.shields.io/badge/Live_Demo-000?logo=vercel&logoColor=white)](https://vanividyamandir.vercel.app)
 
 
 ---

@@ -95,32 +95,53 @@ function ShareIcon() {
 
 /* -------------------------------------------------------------------------- */
 
+import { schoolInfo } from "../data/siteData.js";
+
+function IconMapPin() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className="h-[18px] w-[18px] shrink-0"
+      aria-hidden="true"
+    >
+      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7Zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z" />
+    </svg>
+  );
+}
+
+function IconStar() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className="h-[18px] w-[18px] shrink-0"
+      aria-hidden="true"
+    >
+      <path d="m12 17.27 6.18 3.73-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+    </svg>
+  );
+}
+
 const socials = [
-  {
-    id: "instagram",
-    Icon: IconInstagram,
-    label: "Instagram",
-    href: "https://www.instagram.com/",
-  },
   {
     id: "facebook",
     Icon: IconFacebook,
-    label: "Facebook",
-    href: "https://www.facebook.com/",
+    label: "Official Facebook Page",
+    href: schoolInfo.facebookUrl,
   },
   {
-    id: "youtube",
-    Icon: IconYouTube,
-    label: "YouTube",
-    href: "https://www.youtube.com/",
+    id: "mappls",
+    Icon: IconMapPin,
+    label: "Mappls Directions (Pin: f7773d)",
+    href: schoolInfo.mapplsUrl,
   },
   {
-    id: "whatsapp",
-    Icon: IconWhatsApp,
-    label: "WhatsApp",
-    href: "https://wa.me/919412084631",
+    id: "justdial",
+    Icon: IconStar,
+    label: "Justdial 4.6★ Profile",
+    href: schoolInfo.justdialUrl,
   },
-  { id: "phone", Icon: IconPhone, label: "Call us", href: "tel:+919412084631" },
 ];
 
 export default function FloatingSocialBar() {

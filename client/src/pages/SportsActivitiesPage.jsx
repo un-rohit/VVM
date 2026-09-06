@@ -159,13 +159,13 @@ export default function SportsActivitiesPage() {
           name="keywords"
           content="school sports Gamharia, football cricket basketball, yoga school Gamharia, athletics, indoor games, inter-house sports, Vani Vidya Mandir sports"
         />
-        <link rel="canonical" href="https://devbhoomischool.vercel.app/sports-activities" />
+        <link rel="canonical" href="https://vanividyamandir.vercel.app/sports-activities" />
         <meta property="og:title" content="Sports Activities | Vani Vidya Mandir School, Gamharia" />
         <meta
           property="og:description"
           content="Comprehensive sports program at Vani Vidya Mandir School — outdoor and indoor games, athletics, yoga, fitness, and annual sports day."
         />
-        <meta property="og:url" content="https://devbhoomischool.vercel.app/sports-activities" />
+        <meta property="og:url" content="https://vanividyamandir.vercel.app/sports-activities" />
       </Helmet>
 
       <div className="page-hero">

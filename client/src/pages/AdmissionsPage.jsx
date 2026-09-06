@@ -114,10 +114,10 @@ export default function AdmissionsPage() {
         <title>Admissions Open 2026-27 | Vani Vidya Mandir School, Gamharia</title>
         <meta name="description" content="Admissions open for the 2026-27 session at Vani Vidya Mandir School, Gamharia. Simple enquiry-led admission process with limited seats available." />
         <meta name="keywords" content="school admission Gamharia 2026, Jamshedpur school admission, Vani Vidya Mandir admission process, school fees Jharkhand" />
-        <link rel="canonical" href="https://devbhoomischool.vercel.app/admissions" />
+        <link rel="canonical" href="https://vanividyamandir.vercel.app/admissions" />
         <meta property="og:title" content="Admissions Open 2026-27 | Vani Vidya Mandir School, Gamharia" />
         <meta property="og:description" content="Join Vani Vidya Mandir School in Gamharia. Enquiry-led admissions, transparent process, and value-based education for your child." />
-        <meta property="og:url" content="https://devbhoomischool.vercel.app/admissions" />
+        <meta property="og:url" content="https://vanividyamandir.vercel.app/admissions" />
       </Helmet>
 
       {/* Page Hero */}

@@ -70,7 +70,7 @@ const extraFacilities = [
     icon: <Trophy className="h-6 w-6" />,
     title: "Playground & Open Grounds",
     description:
-      "Spacious open grounds for football, cricket, athletics, and daily physical activities in fresh Himalayan air.",
+      "Spacious open grounds for football, cricket, athletics, and daily morning physical training on campus.",
   },
 ];
 
@@ -81,10 +81,10 @@ export default function FacilitiesPage() {
         <title>Facilities | Vani Vidya Mandir School, Gamharia</title>
         <meta name="description" content="Explore modern facilities at Vani Vidya Mandir School, Gamharia — smart classrooms, science labs, library, computer lab, sports ground, and more." />
         <meta name="keywords" content="school facilities Gamharia, smart classroom, school library, science lab, computer lab, school transport, Vani Vidya Mandir" />
-        <link rel="canonical" href="https://devbhoomischool.vercel.app/facilities" />
+        <link rel="canonical" href="https://vanividyamandir.vercel.app/facilities" />
         <meta property="og:title" content="Facilities | Vani Vidya Mandir School, Gamharia" />
         <meta property="og:description" content="Modern infrastructure including smart classrooms, labs, library, sports ground, and safe transport facilities." />
-        <meta property="og:url" content="https://devbhoomischool.vercel.app/facilities" />
+        <meta property="og:url" content="https://vanividyamandir.vercel.app/facilities" />
       </Helmet>
 
       {/* Page Hero */}

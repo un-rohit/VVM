@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /developer/
-Sitemap: https://devbhoomischool.vercel.app/sitemap.xml
+Sitemap: https://vanividyamandir.vercel.app/sitemap.xml

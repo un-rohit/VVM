@@ -37,10 +37,10 @@ export default function NoticesPage() {
         <title>Notice Board | Vani Vidya Mandir School, Gamharia</title>
         <meta name="description" content="Stay informed with the latest notices, circulars, and school announcements from Vani Vidya Mandir School, Gamharia." />
         <meta name="keywords" content="school notices Gamharia, circulars, school announcements, Vani Vidya Mandir notice board, school updates" />
-        <link rel="canonical" href="https://devbhoomischool.vercel.app/notices" />
+        <link rel="canonical" href="https://vanividyamandir.vercel.app/notices" />
         <meta property="og:title" content="Notice Board | Vani Vidya Mandir School, Gamharia" />
         <meta property="og:description" content="Latest notices, circulars, and announcements from Vani Vidya Mandir School." />
-        <meta property="og:url" content="https://devbhoomischool.vercel.app/notices" />
+        <meta property="og:url" content="https://vanividyamandir.vercel.app/notices" />
       </Helmet>
 
       {/* Page Hero */}

@@ -24,10 +24,10 @@ export default function GalleryPage() {
         <title>Photo Gallery | Vani Vidya Mandir School, Gamharia</title>
         <meta name="description" content="Explore the photo gallery of Vani Vidya Mandir School, Gamharia — campus life, sports, events, classrooms, and student activities." />
         <meta name="keywords" content="school gallery Gamharia, Vani Vidya Mandir photos, school campus images, student activities Jamshedpur" />
-        <link rel="canonical" href="https://devbhoomischool.vercel.app/gallery" />
+        <link rel="canonical" href="https://vanividyamandir.vercel.app/gallery" />
         <meta property="og:title" content="Photo Gallery | Vani Vidya Mandir School, Gamharia" />
         <meta property="og:description" content="A glimpse into daily school life — classrooms, sports, events, and the vibrant Vani Vidya Mandir campus." />
-        <meta property="og:url" content="https://devbhoomischool.vercel.app/gallery" />
+        <meta property="og:url" content="https://vanividyamandir.vercel.app/gallery" />
       </Helmet>
 
       {/* Page Hero */}

@@ -3,7 +3,7 @@ import { ChevronDown, Mail, MapPin, Menu, Phone, X } from "lucide-react";
 import { useCallback, useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { navItems, quickActions, schoolInfo } from "../data/siteData.js";
-import logo from "../../assets/gallery/logo.png";
+import logo from "../../assets/gallery/vvm-logo.svg";
 
 function PlainLink({ item, className = "", onClick }) {
   const [label, href, external] = item;

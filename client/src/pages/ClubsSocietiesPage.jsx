@@ -167,13 +167,13 @@ export default function ClubsSocietiesPage() {
           name="keywords"
           content="school clubs Gamharia, science club, eco club, debate club, coding club, music club, art club, literary club, Vani Vidya Mandir societies"
         />
-        <link rel="canonical" href="https://devbhoomischool.vercel.app/clubs-societies" />
+        <link rel="canonical" href="https://vanividyamandir.vercel.app/clubs-societies" />
         <meta property="og:title" content="Clubs & Societies | Vani Vidya Mandir School, Gamharia" />
         <meta
           property="og:description"
           content="Discover a wide range of clubs and societies at Vani Vidya Mandir School — from Science and Coding to Music, Art, and Debate."
         />
-        <meta property="og:url" content="https://devbhoomischool.vercel.app/clubs-societies" />
+        <meta property="og:url" content="https://vanividyamandir.vercel.app/clubs-societies" />
       </Helmet>
 
       <div className="page-hero">

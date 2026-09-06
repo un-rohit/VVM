@@ -62,13 +62,13 @@ export default function EventsGalleryPage() {
           name="keywords"
           content="school events gallery Gamharia, Vani Vidya Mandir events, school function photos, cultural events Jamshedpur"
         />
-        <link rel="canonical" href="https://devbhoomischool.vercel.app/events-gallery" />
+        <link rel="canonical" href="https://vanividyamandir.vercel.app/events-gallery" />
         <meta property="og:title" content="Events Gallery | Vani Vidya Mandir School, Gamharia" />
         <meta
           property="og:description"
           content="Photos from school events — annual functions, celebrations, competitions, and special days at Vani Vidya Mandir School."
         />
-        <meta property="og:url" content="https://devbhoomischool.vercel.app/events-gallery" />
+        <meta property="og:url" content="https://vanividyamandir.vercel.app/events-gallery" />
       </Helmet>
 
       <div className="page-hero">

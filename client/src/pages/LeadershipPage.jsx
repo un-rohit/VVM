@@ -26,10 +26,10 @@ export default function LeadershipPage() {
         <title>Leadership | Vani Vidya Mandir School, Gamharia</title>
         <meta name="description" content="Read messages from the Chairman and Principal of Vani Vidya Mandir School, Gamharia — their vision for student growth, discipline, values, and academic excellence." />
         <meta name="keywords" content="school leadership Gamharia, chairman message, principal message, Vani Vidya Mandir management, school vision" />
-        <link rel="canonical" href="https://devbhoomischool.vercel.app/leadership" />
+        <link rel="canonical" href="https://vanividyamandir.vercel.app/leadership" />
         <meta property="og:title" content="Leadership Messages | Vani Vidya Mandir School, Gamharia" />
         <meta property="og:description" content="Messages from our Chairman and Principal on education, values, and the school's academic vision." />
-        <meta property="og:url" content="https://devbhoomischool.vercel.app/leadership" />
+        <meta property="og:url" content="https://vanividyamandir.vercel.app/leadership" />
       </Helmet>
 
       <div className="relative overflow-hidden bg-[#014E4E] py-14 text-white md:py-20">
@@ -64,7 +64,7 @@ export default function LeadershipPage() {
       <div className="container-page py-14 md:py-20">
         <SectionHeader
           title="Leadership Messages"
-          subtitle="A message from the Chairman and Headmaster / Principal"
+          subtitle="Guiding words from our School Management and Headmaster"
           icon={<ShieldCheck className="h-6 w-6" />}
         />
 

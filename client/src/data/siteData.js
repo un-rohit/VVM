@@ -5,7 +5,7 @@ import principalImg from "../../assets/gallery/beta.webp";
 //Hero Section
 import heroImg from "../../assets/gallery/slide.webp";
 
-import logo from "../../assets/gallery/logo.png";
+import logo from "../../assets/gallery/vvm-logo.svg";
 
 //Teacher section
 import teacher1 from "../../assets/teachers/1.webp";
@@ -50,26 +50,41 @@ const schoolPhoto = (fileName) =>
 
 export const schoolInfo = {
   name: "Vani Vidya Mandir School",
+  shortName: "VVM Gamharia",
+  established: "1988",
+  tagline: "High School at Gamharia, Jamshedpur — In operation since the 1980s",
   logo: logo,
-  email: "",
+  email: "info@vanividyamandir.edu.in",
   phones: [],
   address:
-    "School Road, Chota Gamharia, Zila Saraykela, Kharsava, Jamshedpur, Jharkhand 832108",
+    "School Road, Ward No. 7, Chota Gamharia, Zila Saraykela Kharsawan, Jamshedpur, Jharkhand 832108",
+  landmark: "Near Julumtand Play Ground, Chota Gamharia",
   mapplsUrl: "https://www.mappls.com/f7773d",
+  mapplsPin: "f7773d",
   facebookUrl: "https://www.facebook.com/gamhariavvm/",
+  justdialUrl:
+    "https://www.justdial.com/Jamshedpur/Vani-Vidya-Mandir-School-Gamharia/9999P6597-6597-200929224422-L1T2_BZDET",
   tourUrl: "https://www.mappls.com/f7773d",
   spotlightImage: schoolPhoto("photos1.jpg"),
   spotlightUrl: schoolPhoto("photos1.jpg"),
+  headmaster: "Mr. Paritosh Mahato",
+  ratings: {
+    justdial: "4.6 / 5",
+    reviewsCount: "20+ verified reviews",
+  },
+  timings: "Monday – Saturday: 9:00 AM – 5:00 PM (Sunday Closed)",
 };
 
 export const footerInfo = {
   name: "Vani Vidya Mandir School",
+  shortName: "VVM Gamharia",
   address:
-    "School Road, Chota Gamharia, Zila Saraykela, Kharsava, Jamshedpur, Jharkhand 832108",
-  phone: "",
-  email: "",
+    "School Road, Ward No. 7, Chota Gamharia, Zila Saraykela Kharsawan, Jamshedpur, Jharkhand 832108",
+  landmark: "Near Julumtand Play Ground",
+  phone: "Available at School Office",
+  email: "info@vanividyamandir.edu.in",
   about:
-    "A school rooted in the Gamharia community, nurturing disciplined learners through strong academics, arts, sports, and service-minded leadership.",
+    "Established in 1988, Vani Vidya Mandir is a trusted high school in Gamharia, Jamshedpur. Dedicated to character-building, disciplined learning, sports, and cultural development for over 35+ years.",
 };
 
 export const navItems = [
@@ -107,6 +122,12 @@ export const navItems = [
 
 export const quickActions = [
   ["Get Directions", "https://www.mappls.com/f7773d", true],
+  ["Facebook", "https://www.facebook.com/gamhariavvm/", true],
+  [
+    "Justdial (4.6★)",
+    "https://www.justdial.com/Jamshedpur/Vani-Vidya-Mandir-School-Gamharia/9999P6597-6597-200929224422-L1T2_BZDET",
+    true,
+  ],
   ["Admissions", "/admissions", false],
 ];
 
@@ -120,128 +141,128 @@ export const missionCards = [
   {
     icon: "target",
     title: "Our Mission",
-    text: "To build confident, compassionate learners through rigorous academics, disciplined habits, creative exploration, and a strong sense of community.",
+    text: "To build confident, disciplined, and morally grounded learners through structured academics, co-curricular skills, and active community participation in Gamharia.",
   },
   {
     icon: "eye",
     title: "Our Vision",
-    text: "To be a trusted school in Gamharia for future-ready education rooted in Indian values, global awareness, and responsible citizenship.",
+    text: "To be Gamharia's premier high school, fostering academic excellence, moral integrity, physical fitness, and holistic development since 1988.",
   },
   {
     icon: "handshake",
     title: "Our Values",
-    text: "Integrity, humility, service, perseverance, and excellence guide every classroom, assembly, activity, and parent partnership.",
+    text: "Integrity, humility, dedication, respect, and perseverance guide every classroom lesson, assembly, sports activity, and parent partnership.",
   },
 ];
 
 export const leaders = [
   {
-    id: "chairman",
-    name: "Mr. Rajeev Sharma",
-    role: "Chairman",
+    id: "management",
+    name: "School Managing Committee",
+    role: "Managing Committee",
     image: chairmanImg,
-    quote: "Education should shape character, confidence, and purpose.",
+    quote: "Education should shape character, discipline, and community purpose.",
     greeting: "Dear Parents and Students,",
     message:
-      "At Vani Vidya Mandir School, we see education as a partnership between home, school, and society. Our campus in Gamharia gives children the advantage of focused learning in a calm, inspiring environment.",
+      "Since 1988, Vani Vidya Mandir School has served the families of Gamharia and Jamshedpur with accessible, value-driven education that empowers every child to succeed.",
     followUp:
-      "We continue to invest in capable teachers, safe infrastructure, digital classrooms, reading culture, sports, and life skills so every student grows with discipline and purpose.",
+      "We continue to strengthen classroom facilities, digital learning tools, sports grounds, and teacher development to ensure our students achieve excellence in academics and life.",
     fullMessage: [
-      "At Vani Vidya Mandir School, we see education as a partnership between home, school, and society. Our campus in Gamharia gives children the advantage of focused learning in a calm, inspiring environment.",
-      "Our priority is not only board performance, but also the formation of habits that stay with a child for life: punctuality, honesty, respect, clear communication, and the courage to take responsibility.",
-      "In the coming session, we are strengthening laboratory work, reading programs, sports coaching, environmental projects, and career guidance so our students are prepared for higher studies and meaningful service.",
-      "I thank our parents for their trust and invite every student to use the opportunities of the school with sincerity, humility, and ambition.",
+      "Since 1988, Vani Vidya Mandir School has served the families of Gamharia and Jamshedpur with accessible, value-driven education that empowers every child to succeed.",
+      "Our priority is the balanced development of each student: punctuality, honesty, clear communication, moral responsibility, and hard work in their studies.",
+      "Our campus in Chota Gamharia provides a safe, disciplined, and supportive environment where teachers and parents work hand-in-hand.",
+      "We warmly welcome new students to join our rich heritage and build a promising future.",
     ],
   },
   {
-    id: "principal",
-    name: "Dr. Meera Joshi",
-    role: "Headmaster / Principal",
+    id: "headmaster",
+    name: "Mr. Paritosh Mahato",
+    role: "Headmaster",
     image: principalImg,
     quote:
-      "Learning becomes meaningful when discipline and curiosity grow together.",
+      "Learning becomes meaningful when discipline, curiosity, and values grow together.",
     greeting: "Dear School Community,",
     message:
-      "Our classrooms are designed to help children think, ask, practice, and present. We keep academic expectations high while giving each learner the guidance needed to improve steadily.",
+      "At Vani Vidya Mandir, every student is encouraged to discover their potential through structured lessons, active participation, and consistent encouragement from teachers.",
     followUp:
-      "Through assemblies, clubs, sports, assessments, counselling, and regular parent communication, we help students become confident, courteous, and ready for the next stage of life.",
+      "Through regular classroom teaching, morning assemblies, sports, cultural programmes, and personal mentorship, we prepare our learners to be capable and conscientious individuals.",
     fullMessage: [
-      "Our classrooms are designed to help children think, ask, practice, and present. We keep academic expectations high while giving each learner the guidance needed to improve steadily.",
-      "Teachers plan lessons around clear concepts, written practice, projects, reading, and reflection. Regular assessments are used to guide improvement, not merely to record marks.",
-      "Equally important are co-curricular experiences: morning assemblies, debate, music, visual art, yoga, games, community outreach, and leadership duties that build confidence and empathy.",
-      "I encourage every child to attend school with preparation, speak truthfully, treat others with kindness, and take pride in doing ordinary things well every day.",
+      "At Vani Vidya Mandir, every student is encouraged to discover their potential through structured lessons, active participation, and consistent encouragement from teachers.",
+      "Teachers deliver concepts with patience and clarity, emphasizing written practice, foundational math, science experiments, languages, and general knowledge.",
+      "Beyond textbooks, our students learn team spirit on the playground, cultural expression in school events, and civic responsibility in the community.",
+      "I invite our parents to maintain open communication with our faculty so together we can ensure the best outcomes for every child.",
     ],
   },
 ];
 
 export const teachers = [
-  ["Vikram Singh Negi", "Mathematics Teacher", teacher1],
-  ["Priya Semwal", "Science Teacher", teacher2],
-  ["Rajesh Chamoli", "English Teacher", teacher3],
-  ["Sunita Dobhal", "Computer Science", teacher4],
-  ["Manisha Raturi", "Social Studies", teacher5],
-  ["Meenakshi Bhatt", "Hindi Teacher", teacher6],
-  ["Deepak Kandwal", "Physical Education", teacher7],
+  ["Vikram Singh", "Mathematics Teacher", teacher1],
+  ["Priya Sharma", "Science Teacher", teacher2],
+  ["Rajesh Kumar Mahato", "English Teacher", teacher3],
+  ["Sunita Kumari", "Computer Science", teacher4],
+  ["Manisha Das", "Social Studies", teacher5],
+  ["Meenakshi Mishra", "Hindi Teacher", teacher6],
+  ["Deepak Soren", "Physical Education", teacher7],
 ];
 
 export const notices = [
   [
-    "Admission Interaction Schedule for 2026-27",
-    "Nursery to Class IX admission interactions will be held from 3 to 8 August 2026. Parents are requested to carry the birth certificate, previous report card, and two photographs.",
-    "View Schedule",
+    "Admissions Open for Session 2026-27",
+    "Admissions are open from Nursery to Class X. Parents can collect the admission form from the school office in Chota Gamharia on working days between 9:00 AM and 5:00 PM.",
+    "View Details",
   ],
   [
-    "Parent Orientation and Academic Briefing",
-    "The first parent orientation for the new term will be conducted in the school auditorium on 10 August 2026 from 9:30 AM onwards.",
+    "Parent-Teacher Meeting (PTM) Notice",
+    "The upcoming quarterly Parent-Teacher Interaction will be conducted in the school hall on Saturday from 9:30 AM to 1:00 PM to review academic progress.",
     "Read Details",
   ],
   [
-    "Monsoon Safety Advisory",
-    "Students using school transport should report five minutes early during heavy rain. Raincoats are preferred over umbrellas for campus movement.",
-    "Read Advisory",
+    "Annual Sports & PT Demonstration",
+    "Students are preparing for the upcoming Annual Sports Meet and physical fitness events at the school ground. Practice sessions will be held during activity hours.",
+    "Sports Schedule",
   ],
   [
-    "Inter-House Science and Heritage Exhibition",
-    "Classes VI to XII will present models and research displays on Himalayan ecology, clean energy, river conservation, and local heritage on 22 August 2026.",
+    "Science & Art Exhibition 2026",
+    "Classes VI to X will present working science models, art displays, and eco-friendly projects on 22 August 2026.",
     "Download Guidelines",
   ],
 ];
 
 export const newsItems = [
   [
-    "Students Lead Ganga Cleanliness Awareness Drive",
-    "12 Jul 2026",
+    "Independence Day Celebrations at Vani Vidya Mandir",
+    "15 Aug 2026",
     schoolPhoto("3.jpg"),
-    "Senior students conducted a community awareness campaign focused on waste segregation, civic responsibility, and respect for the local environment.",
+    "Students and faculty gathered for the flag hoisting ceremony, national anthem, patriotic songs, and cultural performances showcasing unity and heritage.",
   ],
   [
-    "Class X Records 100% Board Result",
+    "Class X Students Achieve 100% Board Results",
     "28 Jun 2026",
     schoolPhoto("4.jpg"),
-    "The school community celebrated a strong Class X result, with students performing especially well in Mathematics, Science, English, and Social Science.",
+    "The school community proudly celebrated outstanding secondary examination results, with students excelling in Mathematics, Science, and Social Studies.",
   ],
   [
-    "Smart Classroom Upgrade Completed",
+    "Campus & Classroom Infrastructure Upgrades",
     "18 Jun 2026",
     schoolPhoto("5.avif"),
-    "Interactive panels, improved audio, and curated digital resources have been added to support clearer explanations and better classroom participation.",
+    "New learning aids, library collections, and classroom enhancements have been completed to support interactive and practical learning.",
   ],
   [
-    "Yoga and Wellness Week Concludes",
+    "Tree Plantation & Campus Cleanliness Drive",
     "08 Jun 2026",
     schoolPhoto("unnamed.webp"),
-    "Students participated in yoga, mindfulness, nutrition talks, and fitness sessions designed around healthy routines and emotional balance.",
+    "Students and teachers planted native saplings around the school campus and participated in a cleanliness awareness rally in Chota Gamharia.",
   ],
 ].map(([title, date, image, text]) => ({ title, date, image, text }));
 
 export const upcomingEvents = [
   ["03", "Aug", "Admission Interactions", "Reception Block - 9:00 AM"],
-  ["10", "Aug", "Parent Orientation", "Main Auditorium - 9:30 AM"],
-  ["15", "Aug", "Independence Day Ceremony", "School Quadrangle - 8:00 AM"],
+  ["10", "Aug", "Parent Orientation", "Main Hall - 9:30 AM"],
+  ["15", "Aug", "Independence Day Ceremony", "School Ground - 8:00 AM"],
   [
     "22",
     "Aug",
-    "Science & Heritage Exhibition",
+    "Science & Art Exhibition",
     "Junior and Senior Labs - 10:00 AM",
   ],
   ["29", "Aug", "Inter-House Football Finals", "Sports Ground - 2:00 PM"],
@@ -250,53 +271,53 @@ export const upcomingEvents = [
 export const toppers = {
   class10: [
     [
-      "Aditya Semwal",
+      "Aditya Kumar",
       "98.6%",
-      "Hard work and focus always pay off! Thanks to my teachers for their constant support.",
+      "Consistent revision and the guidance of our teachers at VVM helped me score top marks.",
       topper1,
     ],
     [
-      "Ankit Negi",
+      "Ankit Mahato",
       "97.8%",
-      "Consistency is the key to success. Daily study and practice made all the difference.",
+      "Daily practice and regular problem-solving made a huge difference in board exams.",
       topper2,
     ],
     [
-      "Harshita Raturi",
+      "Harshita Singh",
       "97.2%",
-      "Dream big, work hard, stay humble. Vani Vidya Mandir School shaped my journey.",
+      "I am deeply grateful to my teachers and parents for their continuous encouragement.",
       topper3,
     ],
     [
-      "Ananya Bhatt",
+      "Ananya Das",
       "96.9%",
-      "Dedication leads to achievement. I am grateful to my parents and teachers.",
+      "Discipline and focus during class hours prepared me thoroughly for the exams.",
       topper4,
     ],
   ],
   class12: [
     [
-      "Archita Dobhal",
+      "Archita Kumari",
       "99.2%",
-      "Excellence through dedication. The faculty at Vani Vidya Mandir made this possible.",
+      "Vani Vidya Mandir provided the right academic atmosphere and study guidance.",
       topper5,
     ],
     [
-      "Naveen Kandwal",
+      "Naveen Mahato",
       "98.7%",
-      "Stay focused and believe in yourself. The support system here is incredible.",
+      "Clarifying concepts early with teachers helped me stay confident throughout the year.",
       topper6,
     ],
     [
-      "Karan Chamoli",
+      "Karan Sharma",
       "98.1%",
-      "Success is built on discipline. Every small effort counts in the long run.",
+      "The test series and teacher feedback helped me identify and strengthen weak areas.",
       topper7,
     ],
     [
-      "Nisha Rawat",
+      "Nisha Soren",
       "97.5%",
-      "Learning never stops. This school taught me to love the process of studying.",
+      "A disciplined study routine and supportive mentors made this achievement possible.",
       topper8,
     ],
   ],
@@ -307,31 +328,31 @@ export const facilities = [
     title: "Smart Classrooms",
     image: schoolPhoto("photos1.jpg"),
     description:
-      "Interactive classrooms with smart boards, digital content, and visual learning tools that make lessons more engaging and easier to understand.",
+      "Interactive classrooms with modern teaching aids, digital content, and visual tools that make lessons more engaging and easier to understand.",
   },
   {
     title: "Science Laboratories",
     image: schoolPhoto("photos2.jpg"),
     description:
-      "Modern laboratories encourage students to explore science through experiments, observation, practical demonstrations, and hands-on learning.",
+      "Well-equipped laboratories encourage students to explore physics, chemistry, and biology through practical experiments and demonstrations.",
   },
   {
     title: "Modern Library",
     image: schoolPhoto("6.jpg"),
     description:
-      "A calm and resourceful library with books, reference material, and reading spaces that build curiosity, research skills, and imagination.",
+      "A calm and resourceful library with curriculum books, reference material, and reading spaces that build curiosity and self-study habits.",
   },
   {
     title: "Computer Lab",
     image: schoolPhoto("7.jpg"),
     description:
-      "A technology-enabled lab where students learn computer basics, digital literacy, research skills, coding foundations, and safe internet practices.",
+      "A computer lab where students learn digital literacy, computer fundamentals, office tools, and safe internet practices.",
   },
   {
-    title: "Sports Ground",
+    title: "Sports & Play Ground",
     image: schoolPhoto("unnamed (1).webp"),
     description:
-      "Open sports spaces support fitness, discipline, teamwork, confidence, and participation in athletics, games, and outdoor activities.",
+      "Spacious grounds supporting football, cricket, volleyball, kabaddi, athletics, and daily morning PT exercises.",
   },
 ];
 
@@ -340,46 +361,46 @@ export const testimonials = [
     "Sunita Sharma",
     "Parent",
     "https://ui-avatars.com/api/?name=Sunita+Sharma&background=F3EFE6&color=014E4E&bold=true&size=200&font-size=0.40",
-    "The school provides excellent academic guidance along with equal focus on values and activities. Teachers give personal attention, encourage confidence, and help students develop discipline, leadership, and a positive attitude toward learning.",
+    "Vani Vidya Mandir has been a beacon of learning in Gamharia for decades. The teachers give individual attention to each child, ensuring both strong academic basics and good discipline.",
   ],
   [
-    "Ananya Badoni",
+    "Ananya Kumari",
     "Student",
-    "https://ui-avatars.com/api/?name=Ananya+Badoni&background=E8F5E9&color=1B5E20&bold=true&size=200&font-size=0.40",
-    "I enjoy the friendly learning environment and the way teachers explain every concept with patience. The activities, competitions, and classroom discussions have helped me become more confident and active in school life.",
+    "https://ui-avatars.com/api/?name=Ananya+Kumari&background=E8F5E9&color=1B5E20&bold=true&size=200&font-size=0.40",
+    "I really enjoy studying here. Our teachers make lessons interesting and easy to understand, and we have lots of sports and cultural events throughout the year.",
   ],
   [
-    "Manoj Bisht",
+    "Manoj Mahato",
     "Parent",
-    "https://ui-avatars.com/api/?name=Manoj+Bisht&background=E3F2FD&color=0D47A1&bold=true&size=200&font-size=0.40",
-    "The faculty members are experienced, approachable, and supportive. They understand each child's potential and guide them carefully. We have seen strong improvement in our child's confidence, communication, discipline, and academic performance.",
+    "https://ui-avatars.com/api/?name=Manoj+Mahato&background=E3F2FD&color=0D47A1&bold=true&size=200&font-size=0.40",
+    "The faculty is approachable and attentive. We have seen significant improvement in our son's confidence, speaking skills, and examination scores.",
   ],
   [
-    "Kavita Rawat",
+    "Kavita Singh",
     "Alumni",
-    "https://ui-avatars.com/api/?name=Kavita+Rawat&background=FFF3E0&color=E65100&bold=true&size=200&font-size=0.40",
-    "The school gave me a strong foundation through academics, activities, and mentoring. Smart classrooms, supportive teachers, and a culture of curiosity helped me build independent thinking and prepare for future challenges.",
+    "https://ui-avatars.com/api/?name=Kavita+Singh&background=FFF3E0&color=E65100&bold=true&size=200&font-size=0.40",
+    "Studying at Vani Vidya Mandir gave me the confidence and moral grounding that still guide me today. Proud to be an alumnus of this school.",
   ],
   [
-    "Ramesh Pant",
+    "Ramesh Das",
     "Parent",
-    "https://ui-avatars.com/api/?name=Ramesh+Pant&background=FCE4EC&color=880E4F&bold=true&size=200&font-size=0.40",
-    "My daughter has grown tremendously in confidence and academic performance since joining Vani Vidya Mandir School. The teachers truly care about each student's progress and overall development.",
+    "https://ui-avatars.com/api/?name=Ramesh+Das&background=FCE4EC&color=880E4F&bold=true&size=200&font-size=0.40",
+    "The school combines good values with quality teaching. It is easily accessible on School Road, and the administrative staff is always helpful.",
   ],
 ].map(([name, role, image, text]) => ({ name, role, image, text }));
 
 export const achievements = [
   [
     "5,000+",
-    "Students Enrolled",
+    "Students & Alumni",
     "users",
     galleryImage("g9.webp"),
     "md:col-span-2 md:row-span-2",
   ],
-  ["25+", "Years Experience", "school", heroImg, ""],
+  ["35+", "Years of Legacy", "school", heroImg, ""],
   ["100%", "Board Results", "trend", galleryImage("g3.webp"), ""],
-  ["200+", "Qualified Faculty", "teacher", chairmanImg, ""],
-  ["50+", "National & State Awards", "award", yoga, "md:col-span-2"],
+  ["4.6★", "Justdial Rating", "award", yoga, ""],
+  ["20+", "Dedicated Teachers", "teacher", chairmanImg, "md:col-span-2"],
 ];
 
 export const programs = [

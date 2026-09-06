@@ -62,10 +62,10 @@ export default function ContactPage() {
         <title>Contact Us | Vani Vidya Mandir School, Gamharia</title>
         <meta name="description" content="Contact Vani Vidya Mandir School, Gamharia — School Road, Chota Gamharia, Jamshedpur. Find the Mappls pin, Facebook page, and enquiry form here." />
         <meta name="keywords" content="contact Vani Vidya Mandir School, Gamharia school address, Jamshedpur school enquiry, Mappls pin f7773d" />
-        <link rel="canonical" href="https://devbhoomischool.vercel.app/contact" />
+        <link rel="canonical" href="https://vanividyamandir.vercel.app/contact" />
         <meta property="og:title" content="Contact Us | Vani Vidya Mandir School, Gamharia" />
         <meta property="og:description" content="Get in touch with Vani Vidya Mandir School. Use the Mappls listing, Facebook page, or enquiry form." />
-        <meta property="og:url" content="https://devbhoomischool.vercel.app/contact" />
+        <meta property="og:url" content="https://vanividyamandir.vercel.app/contact" />
       </Helmet>
 
       {/* Page Hero */}
@@ -98,24 +98,24 @@ export default function ContactPage() {
             {[
               {
                 icon: <MapPin className="h-6 w-6" />,
-                title: "School Address",
+                title: "School Address & Mappls",
                 content: schoolInfo.address,
-                sub: "Mappls Pin: f7773d",
-                action: { href: schoolInfo.mapplsUrl, label: "Open Mappls" },
+                sub: "Mappls Pin: f7773d | Near Julumtand Ground",
+                action: { href: schoolInfo.mapplsUrl, label: "Open in Mappls" },
               },
               {
                 icon: <Phone className="h-6 w-6" />,
                 title: "Facebook Page",
                 content: "facebook.com/gamhariavvm",
-                sub: "Latest updates and announcements",
-                action: { href: schoolInfo.facebookUrl, label: "Open Page" },
+                sub: "Official community updates & events",
+                action: { href: schoolInfo.facebookUrl, label: "Visit Facebook" },
               },
               {
                 icon: <Mail className="h-6 w-6" />,
-                title: "Enquiry Form",
-                content: "Submit your details below",
-                sub: "We respond through the contact form",
-                action: null,
+                title: "Justdial Profile",
+                content: "Rated 4.6 / 5 (20+ verified reviews)",
+                sub: "Listed under premier schools in Gamharia",
+                action: { href: schoolInfo.justdialUrl, label: "View on Justdial" },
               },
             ].map((card) => (
               <SectionMotion key={card.title}>
@@ -237,9 +237,9 @@ export default function ContactPage() {
                   <h3 className="text-xl font-bold text-primary">School Timings</h3>
                   <div className="mt-5 space-y-4 font-body text-sm">
                     {[
-                      ["School Hours", "Monday – Friday", "9:30 AM – 4:30 PM"],
-                      ["Office Hours", "Monday – Saturday", "9:30 AM – 5:30 PM"],
-                      ["Admissions Enquiry", "Monday – Saturday", "9:30 AM – 5:30 PM"],
+                      ["School Timings", "Monday – Saturday", "9:00 AM – 4:00 PM"],
+                      ["Office Hours", "Monday – Saturday", "9:00 AM – 5:00 PM"],
+                      ["Admissions Enquiry", "Monday – Saturday", "9:00 AM – 5:00 PM"],
                     ].map(([dept, days, time]) => (
                       <div key={dept} className="flex items-start gap-3 border-b border-slate-100 pb-4 last:border-0 last:pb-0">
                         <Clock className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
@@ -256,12 +256,13 @@ export default function ContactPage() {
 
               <SectionMotion>
                 <div className="card-surface p-7">
-                  <h3 className="text-xl font-bold text-primary">Quick Contacts</h3>
+                  <h3 className="text-xl font-bold text-primary">Quick Links & Portals</h3>
                   <div className="mt-5 space-y-4">
                     {[
                       { dept: "Mappls Pin", value: "f7773d", href: schoolInfo.mapplsUrl },
                       { dept: "Facebook", value: "facebook.com/gamhariavvm", href: schoolInfo.facebookUrl },
-                      { dept: "Address", value: schoolInfo.address, href: null },
+                      { dept: "Justdial", value: "4.6★ (20+ Reviews)", href: schoolInfo.justdialUrl },
+                      { dept: "Campus", value: "School Road, Chota Gamharia", href: null },
                     ].map((c) => (
                       <div key={c.dept} className="flex items-center gap-3 font-body text-sm">
                         <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-primary/10 text-primary">

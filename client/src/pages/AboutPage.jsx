@@ -59,10 +59,10 @@ export default function AboutPage() {
         <title>About Us | Vani Vidya Mandir School, Gamharia</title>
         <meta name="description" content="Learn about Vani Vidya Mandir School, Gamharia — our mission, vision, values, faculty, and the learning culture that shapes students in Jamshedpur." />
         <meta name="keywords" content="about Vani Vidya Mandir School, school history Gamharia, school mission vision, faculty Jamshedpur school" />
-        <link rel="canonical" href="https://devbhoomischool.vercel.app/about" />
+        <link rel="canonical" href="https://vanividyamandir.vercel.app/about" />
         <meta property="og:title" content="About Us | Vani Vidya Mandir School, Gamharia" />
         <meta property="og:description" content="Discover the mission, vision, values, and learning culture of Vani Vidya Mandir School in Gamharia, Jamshedpur." />
-        <meta property="og:url" content="https://devbhoomischool.vercel.app/about" />
+        <meta property="og:url" content="https://vanividyamandir.vercel.app/about" />
       </Helmet>
 
       {/* Page Hero */}
@@ -226,8 +226,8 @@ export default function AboutPage() {
                 text: "Clear lesson planning, concept-based teaching, regular assessments, and guided revision ensure every student progresses steadily.",
               },
               {
-                title: "Himalayan Environment",
-                text: "Our campus in Gamharia offers children a calm, inspiring environment — close to the community and focused on learning.",
+                title: "Inspiring Learning Environment",
+                text: "Our campus on School Road, Chota Gamharia offers children a safe, disciplined, and encouraging atmosphere right in the community.",
               },
               {
                 title: "Parent Partnership",
@@ -306,16 +306,18 @@ export default function AboutPage() {
                 </thead>
                 <tbody className="divide-y divide-slate-100">
                   {[
-                    ["School Name", "Vani Vidya Mandir School"],
+                    ["School Name", "Vani Vidya Mandir School (VVM)"],
+                    ["Established", "1988 (Serving Gamharia for 35+ years)"],
                     ["Location", schoolInfo.address],
+                    ["Landmark", schoolInfo.landmark],
                     ["Mappls Pin", "f7773d"],
-                    ["Facebook", schoolInfo.facebookUrl],
-                    ["Principal", "To be updated"],
-                    ["Contact", "Public phone not listed"],
-                    ["Email", "Public email not listed"],
-                    ["Classes Offered", "Nursery to Senior Secondary"],
-                    ["Medium of Instruction", "English"],
+                    ["Facebook", "facebook.com/gamhariavvm"],
+                    ["Justdial Profile", "Rated 4.6 / 5 (20+ verified reviews)"],
+                    ["Headmaster / Admin", schoolInfo.headmaster],
+                    ["Classes Offered", "Nursery to Class X (High School)"],
+                    ["Medium of Instruction", "English & Hindi"],
                     ["School Type", "Co-Educational Day School"],
+                    ["Office Hours", schoolInfo.timings],
                     ["Status", "Active"],
                   ].map(([label, value], i) => (
                     <tr key={label} className={i % 2 === 0 ? "bg-white" : "bg-slate-50/60"}>

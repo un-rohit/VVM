@@ -123,10 +123,10 @@ export default function AcademicsPage() {
         <title>Academics | Vani Vidya Mandir School, Gamharia</title>
         <meta name="description" content="Explore academic programs at Vani Vidya Mandir School, Gamharia — from Nursery to Senior Secondary with smart classrooms, labs, clubs, and sports activities." />
         <meta name="keywords" content="academic programs Gamharia, school academics, clubs sports activities, smart classroom Gamharia" />
-        <link rel="canonical" href="https://devbhoomischool.vercel.app/academics" />
+        <link rel="canonical" href="https://vanividyamandir.vercel.app/academics" />
         <meta property="og:title" content="Academics | Vani Vidya Mandir School, Gamharia" />
         <meta property="og:description" content="Complete academic programs from Nursery to Class XII with modern teaching methods and co-curricular activities." />
-        <meta property="og:url" content="https://devbhoomischool.vercel.app/academics" />
+        <meta property="og:url" content="https://vanividyamandir.vercel.app/academics" />
       </Helmet>
 
       {/* Page Hero */}

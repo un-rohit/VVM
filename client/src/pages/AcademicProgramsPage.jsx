@@ -173,13 +173,13 @@ export default function AcademicProgramsPage() {
           name="keywords"
           content="academic programs Gamharia, school curriculum Jamshedpur, pre-primary to senior secondary, school programs Jharkhand, Vani Vidya Mandir academics"
         />
-        <link rel="canonical" href="https://devbhoomischool.vercel.app/academic-programs" />
+        <link rel="canonical" href="https://vanividyamandir.vercel.app/academic-programs" />
         <meta property="og:title" content="Academic Programs | Vani Vidya Mandir School, Gamharia" />
         <meta
           property="og:description"
           content="Complete academic programs from Pre-Primary to Senior Secondary at Vani Vidya Mandir School — modern classrooms, thoughtful teaching, and holistic development."
         />
-        <meta property="og:url" content="https://devbhoomischool.vercel.app/academic-programs" />
+        <meta property="og:url" content="https://vanividyamandir.vercel.app/academic-programs" />
       </Helmet>
 
       <div className="page-hero">

@@ -13,10 +13,17 @@ const socialLinks = [
     ),
   },
   {
-    label: "Directions",
+    label: "Directions (Mappls)",
     href: schoolInfo.mapplsUrl,
+    icon: <MapPin className="h-4 w-4" />,
+  },
+  {
+    label: "Justdial Profile",
+    href: schoolInfo.justdialUrl,
     icon: (
-      <MapPin className="h-4 w-4" />
+      <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
+        <path d="m12 17.27 6.18 3.73-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+      </svg>
     ),
   },
 ];
@@ -75,14 +82,24 @@ export default function Footer() {
 
         {/* Col 4 – Contact */}
         <div className="text-center sm:text-left">
-          <FooterHeading>Contact Us</FooterHeading>
-          <ul className="mt-5 space-y-4 text-sm text-white/70" style={{ fontFamily: "var(--font-body)" }}>
+          <FooterHeading>Contact & Visit</FooterHeading>
+          <ul className="mt-5 space-y-3.5 text-sm text-white/70" style={{ fontFamily: "var(--font-body)" }}>
             <ContactRow icon={<MapPin className="h-4 w-4 shrink-0 text-[#F7CB1F]" />}>
-              {footerInfo.address}
+              <span>{footerInfo.address}</span>
             </ContactRow>
             <ContactRow icon={<MapPin className="h-4 w-4 shrink-0 text-[#F7CB1F]" />}>
-              <a href={schoolInfo.mapplsUrl} target="_blank" rel="noreferrer" className="transition-colors hover:text-[#F7CB1F]">Open directions on Mappls</a>
+              <a href={schoolInfo.mapplsUrl} target="_blank" rel="noreferrer" className="transition-colors hover:text-[#F7CB1F]">
+                Open directions on Mappls (Pin: f7773d)
+              </a>
             </ContactRow>
+            <ContactRow icon={<span className="text-[#F7CB1F] font-bold">★</span>}>
+              <a href={schoolInfo.justdialUrl} target="_blank" rel="noreferrer" className="transition-colors hover:text-[#F7CB1F]">
+                Justdial Rating: 4.6 / 5 (20+ reviews)
+              </a>
+            </ContactRow>
+            <li className="pt-1 text-xs text-white/50">
+              Hours: Mon – Sat, 9:00 AM – 5:00 PM
+            </li>
           </ul>
         </div>
       </div>

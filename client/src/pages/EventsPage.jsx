@@ -82,10 +82,10 @@ export default function EventsPage() {
         <title>Events & News | Vani Vidya Mandir School, Gamharia</title>
         <meta name="description" content="Stay updated with the latest school news, upcoming events, annual calendar, and activities at Vani Vidya Mandir School, Gamharia." />
         <meta name="keywords" content="school events Gamharia, school news, annual calendar, Vani Vidya Mandir activities, school function dates" />
-        <link rel="canonical" href="https://devbhoomischool.vercel.app/events" />
+        <link rel="canonical" href="https://vanividyamandir.vercel.app/events" />
         <meta property="og:title" content="Events & News | Vani Vidya Mandir School, Gamharia" />
         <meta property="og:description" content="Latest school news, upcoming events, and the annual activity calendar for Vani Vidya Mandir School." />
-        <meta property="og:url" content="https://devbhoomischool.vercel.app/events" />
+        <meta property="og:url" content="https://vanividyamandir.vercel.app/events" />
       </Helmet>
 
       {/* Page Hero */}

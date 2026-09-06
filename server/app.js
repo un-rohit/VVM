@@ -26,7 +26,7 @@ app.use(
     contentSecurityPolicy: {
       directives: {
         ...helmet.contentSecurityPolicy.getDefaultDirectives(),
-        "frame-ancestors": ["'self'", "https://devbhoomischool.vercel.app/"],
+        "frame-ancestors": ["'self'", "https://vanividyamandir.vercel.app/"],
       },
     },
   }),
@@ -34,7 +34,7 @@ app.use(
 
 const allowedOrigins = [
   process.env.CLIENT_URL,
-  "https://devbhoomischool.vercel.app",
+  "https://vanividyamandir.vercel.app",
   "http://localhost:5173",
 ].filter(Boolean);
 
@@ -52,7 +52,7 @@ const allowedHosts = [
   process.env.CLIENT_DOMAIN,
   process.env.PUBLIC_BASE_DOMAIN,
   process.env.CLIENT_URL,
-  "devbhoomischool.com",
+  "vanividyamandir.com",
 ]
   .map(hostFrom)
   .filter(Boolean);

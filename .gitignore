@@ -3,6 +3,10 @@
 # Dependencies
 node_modules/
 
+# Build artifacts
+dist/
+client/dist/
+
 # Environment variables — NEVER push secrets to GitHub
 .env
 .env.local

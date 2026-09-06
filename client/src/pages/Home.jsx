@@ -142,7 +142,7 @@ export default function Home({ focusSection }) {
           name="keywords"
           content="Vani Vidya Mandir School, Gamharia school, Jamshedpur school admission 2026, English medium school Jharkhand, school near Chota Gamharia"
         />
-        <link rel="canonical" href="https://devbhoomischool.vercel.app/" />
+        <link rel="canonical" href="https://vanividyamandir.vercel.app/" />
         <meta
           property="og:title"
           content="Vani Vidya Mandir School, Gamharia"
@@ -151,7 +151,7 @@ export default function Home({ focusSection }) {
           property="og:description"
           content="Vani Vidya Mandir School in Gamharia offers a supportive learning environment with modern facilities, dedicated faculty, and value-based education."
         />
-        <meta property="og:url" content="https://devbhoomischool.vercel.app/" />
+        <meta property="og:url" content="https://vanividyamandir.vercel.app/" />
       </Helmet>
 
       <Hero />
