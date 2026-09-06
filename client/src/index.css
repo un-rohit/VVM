@@ -1,0 +1,194 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0f4d43;
+  --color-secondary: #1f3f70;
+  --color-accent: #d79a21;
+  --color-ink: #17211f;
+  --color-muted: #65737a;
+  --color-paper: #f8fafc;
+  --color-mist: #e7f2f5;
+  --color-coral: #b95f52;
+
+  --font-heading: "Plus Jakarta Sans", "DM Sans", system-ui, sans-serif;
+  --font-body: "DM Sans", "Plus Jakarta Sans", system-ui, sans-serif;
+
+  --shadow-soft: 0 18px 45px rgb(15 77 67 / 0.12);
+  --shadow-card: 0 12px 32px rgb(23 33 31 / 0.07);
+  --shadow-elevated: 0 22px 60px rgb(15 77 67 / 0.16);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-paper text-ink antialiased;
+    font-family: var(--font-body);
+  }
+
+  img {
+    @apply block max-w-full;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+
+  ::selection {
+    @apply bg-primary/15 text-primary;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-[1280px] px-4 sm:px-6 lg:px-4 xl:px-8;
+  }
+
+  .section-pad {
+    @apply py-14 md:py-20;
+  }
+
+  .primary-btn {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-white shadow-soft transition-all duration-300 hover:-translate-y-0.5 hover:bg-emerald-900 hover:shadow-elevated focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2;
+  }
+
+  .secondary-btn {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-full border border-primary/25 bg-white px-6 py-3 text-sm font-semibold text-primary shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-primary hover:bg-primary hover:text-white focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2;
+  }
+
+  .section-title {
+    @apply text-2xl font-bold leading-tight text-primary md:text-3xl lg:text-[34px];
+    font-family: var(--font-heading);
+  }
+
+  .section-subtitle {
+    @apply mx-auto mt-3 max-w-2xl text-base leading-7 text-muted;
+    font-family: var(--font-body);
+  }
+
+  .icon-divider {
+    @apply mt-5 flex items-center justify-center gap-4;
+  }
+
+  .icon-line {
+    @apply h-px w-12 rounded-full bg-primary/20 sm:w-20;
+  }
+
+  .icon-circle {
+    @apply flex h-10 w-10 items-center justify-center rounded-full border border-primary/15 bg-white text-primary shadow-sm;
+  }
+
+  .card-surface {
+    @apply rounded-xl border border-slate-200/80 bg-white shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-soft;
+  }
+
+  .image-overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-ink/85 via-primary/45 to-transparent;
+  }
+
+  .input-field {
+    @apply rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm outline-none transition-all duration-200 focus:border-primary focus:ring-4 focus:ring-primary/10;
+    font-family: var(--font-body);
+  }
+}
+
+@layer utilities {
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #014e4e #f1f1f1;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 999px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #014e4e;
+    border-radius: 999px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-button {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.testimonial-scroll {
+  animation: testimonial-scroll 28s linear infinite;
+}
+
+.testimonial-scroll:hover {
+  animation-play-state: paused;
+}
+
+@keyframes testimonial-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes teacher-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.animate-teacher-scroll {
+  animation: teacher-scroll 18s linear infinite;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+.page-hero {
+  @apply relative overflow-hidden bg-[#014E4E] py-14 text-white md:py-20;
+}
+
+/* Premium page transitions */
+.page-enter {
+  animation: pageEnter 0.35s ease-out;
+}
+
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Smooth image loading */
+img {
+  transition: opacity 0.3s ease;
+}
+
+img[loading="lazy"] {
+  opacity: 1;
+}
+
+/* Premium focus states */
+a:focus-visible,
+button:focus-visible {
+  @apply outline-none ring-2 ring-primary/40 ring-offset-2;
+}

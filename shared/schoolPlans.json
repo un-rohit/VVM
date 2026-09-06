@@ -1,0 +1,13 @@
+{
+  "features": [
+    { "id": "notices", "label": "Notice Board" },
+    { "id": "news", "label": "Latest News" },
+    { "id": "events", "label": "Upcoming Events" }
+  ],
+  "plans": {
+    "basic": ["notices"],
+    "standard": ["notices", "news", "events"],
+    "premium": ["notices", "news", "events"],
+    "custom": null
+  }
+}

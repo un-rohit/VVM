@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /developer/
+Sitemap: https://devbhoomischool.vercel.app/sitemap.xml
